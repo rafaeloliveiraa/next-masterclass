@@ -9,10 +9,10 @@ export default function Pagina(props: any) {
             <div className="flex-grow flex">
                 <MenuPrincipal />
                 <div className="flex flex-col flex-1">
-                <main className="p-7 flex-1">
-                    {props.children}
-                </main>
-                <Rodape />
+                    <main className="p-7 flex-1">
+                        {props.children}
+                    </main>
+                    <Rodape />
                 </div>
 
             </div>

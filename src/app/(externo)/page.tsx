@@ -8,9 +8,9 @@ export default function Inicio() {
         <h1 className="text-4xl font-black">Olá Usuário!</h1>
         <p className="text-lg text-zinc-400">Seja bem-vindo ao Sistema!!!</p>
       </div>
-      
-        <Link href="/primeiro" className="bg-blue-500 rounded-md px-4 py-2 mt-10">Entrar</Link>
-      
+
+      <Link href="/primeiro" className="bg-blue-500 rounded-md px-4 py-2 mt-10">Entrar</Link>
+
     </div>
   );
 }

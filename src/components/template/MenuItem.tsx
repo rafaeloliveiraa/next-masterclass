@@ -10,7 +10,7 @@ export default function MenuItem(props: any) {
         px-4 py-2
         
         ">
-            {props.children}</Link> 
+            {props.children}</Link>
 
     )
 
